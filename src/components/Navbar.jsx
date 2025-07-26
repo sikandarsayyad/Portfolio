@@ -10,7 +10,7 @@ import Leaf from "../assets/leaf-1.png";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-1 relative">
-      <div className="leaf-1 absolute z-50 -left-20 top-0 opacity-50">
+      <div className="leaf-1 absolute z-50 -left-20 top-0 opacity-0 lg:opacity-30">
         <img
           src={Leaf}
           alt="leaf"
@@ -21,7 +21,7 @@ const Navbar = () => {
         <a
           href="/"
           aria-label="home"
-          className="text-6xl font-DancingScript text-gradient ml-8"
+          className="text-6xl font-DancingScript text-gradient lg:ml-8"
         >
           SS
         </a>

@@ -17,7 +17,7 @@ const Contact = () => {
         src={Leaf1}
         alt="leaf"
         width={250}
-        className="leaf-1 absolute z-50 -left-20 top-0 opacity-30"
+        className="leaf-1 absolute z-50 -left-20 top-0 opacity-0 lg:opacity-30"
         
       />
 

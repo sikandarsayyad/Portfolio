@@ -17,14 +17,16 @@ const Experience = () => {
                                    <h3 className='mb-2 font-semibold text-green-400'>{experience.role } 
                                        - <span className='text-sm text-stone-500'>{experience.company}</span>
                                    </h3>
-                                   <p className='mb-4 text-stone-400'>{experience.description}</p>
+                                   <p className='mb-4 text-stone-400 '>{experience.description}</p>
+                                   <div className='w-full flex flex-wrap gap-2'>
                                    {
                                         experience.technologies.map((tech, index)=>{
                                            return(
-                                             <span className='mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300  ' key={index}>{tech}</span>
+                                             <span className='mr-2 mt-4 rounded bg-stone-900 px-2 py-1 text-sm font-medium text-stone-300   ' key={index}>{tech}</span>
                                            )  
                                         })
                                    }
+                                   </div>
                               </div>
                          </div>
                     )

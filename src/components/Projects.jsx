@@ -23,6 +23,7 @@ const Projects = () => {
                   <h3 className="mb-2 font-semibold text-2xl text-green-400">{project.title}</h3>
                 </a>
                 <p className="mb-4 text-stone-400">{project.description}</p>
+                <div className="w-full flex flex-wrap gap-2">
                 {project.technologies.map((tech, index) => {
                   return (
                     <span
@@ -33,6 +34,7 @@ const Projects = () => {
                     </span>
                   );
                 })}
+                </div>
               </div>
             </div>
           );
