@@ -12,7 +12,7 @@ const Hero = () => {
             <img
               src={profilePic}
               width={350}
-              alt="sikandar sayyad"
+              alt="sikandar Sammad sayyad"
               className="border border-stone-900 rounded-3xl"
             />
           </div>
