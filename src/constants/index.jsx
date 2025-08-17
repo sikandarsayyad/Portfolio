@@ -1,32 +1,42 @@
+import project0 from "../assets/projects/project-0.webp";
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Angular, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1+ years of hands-on experience, I have honed my skills in front-end technologies like React and Angular, as well as back-end technologies like Node.js, Express.Js MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 
 export const EXPERIENCES = [
   {
-    year: "Nov 2024 - Apr 2025",
+    year: "Aug 2025 - Current",
     role: "Full Stack Developer",
-    company: " Borgword Technology",
-    description: `Developed and deployed modern web applications using Angular, React, TypeScript, Tailwind CSS, and Bootstrap.
+    company: "Whizfortune Software Solution.",
+    description: `Worked on diverse full-stack projects including e-commerce platforms, car selling websites, and ERP solutions. Built responsive frontends with React & Tailwind CSS and scalable backends using Node.js & MySQL. Implemented secure authentication, rolebased access, automated emails, and developed dashboards to enhance usability and business efficiency.
 
-    Built a full-featured E-Commerce website with dynamic cart functionality and a responsive UI.
+    `,
+    technologies: ["React Js", "Tailwind","Bootstrap", "ExpressJs", "Mysql", "MongoDB"],
+  },
+  {
+    year: "Aug 2024 - Feb 2025",
+    role: "Full Stack Developer",
+    company: " Borgword Technology Pvt Ltd.",
+    description: `Built full-stack applications using React, Node.js, MySQL, and MongoDB, where I worked extensively on developing UI components with React (using Hooks and Props) and integrating them with backend APIs. My experience also includes writing SQL queries.
 
-    Created product showcase websites with ScrollReveal.js animations and Swiper.js sliders for interactive user experiences.
-
-    Built and integrated Node.js backend APIs to handle dynamic data and RESTful services.
-
-    Ensured all apps were mobile-responsive, performance-optimized, and followed clean code practices with Git-based version control.
-
-`,
-    technologies: ["React Js", "Angular", "MongoDB", "Tailwind","Bootstrap", "Node"],
+    `,
+    technologies: ["React Js", "Angular", "MongoDB", "Tailwind","Bootstrap", "NodeJs"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Simian Training ERP (Live project)",
+    image: project0,
+    description:
+      "Built full-stack ERP system for training centers with authentication, role-based access, and CRUD operations. Developed responsive UI in React + Tailwind; backend in Node.js + MySQL. Integrated Nodemailer for password reset & account communication.Added admin dashboard for real-time monitoring.",
+    technologies: ["ExpressJs", "React Js", "Tailwind", "Mysql"],
+    link: "https://simianinternational.com/international-scaffolder/",
+  },
   {
     title: "E - Commerce Website",
     image: project1,
